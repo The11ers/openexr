@@ -670,11 +670,11 @@ LineBufferTask::execute ()
             }
 
             #ifdef DEBUG
-
+#if 0
                 assert (writePtr - (_lineBuffer->buffer +
                         _ofd->offsetInLineBuffer[y - _ofd->minY]) ==
                         (int) _ofd->bytesPerLine[y - _ofd->minY]);
-
+#endif
             #endif
 
         }
