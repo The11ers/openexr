@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0FB66816E04AAD002331E9 /* IlmBaseConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0FB66716E04AAD002331E9 /* IlmBaseConfig.h */; };
+		CA3F299814D77F1900D30B8D /* half.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F294B14D77F1900D30B8D /* half.cpp */; };
+		CA3F299914D77F1900D30B8D /* half.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F294C14D77F1900D30B8D /* half.h */; };
+		CA3F299A14D77F1900D30B8D /* halfFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F294D14D77F1900D30B8D /* halfFunction.h */; };
+		CA3F299B14D77F1900D30B8D /* halfLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F294E14D77F1900D30B8D /* halfLimits.h */; };
+		CA3F299D14D77F1900D30B8D /* Iex.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F295314D77F1900D30B8D /* Iex.h */; };
+		CA3F299E14D77F1900D30B8D /* IexBaseExc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F295414D77F1900D30B8D /* IexBaseExc.cpp */; };
+		CA3F299F14D77F1900D30B8D /* IexBaseExc.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F295514D77F1900D30B8D /* IexBaseExc.h */; };
+		CA3F29A014D77F1900D30B8D /* IexErrnoExc.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F295614D77F1900D30B8D /* IexErrnoExc.h */; };
+		CA3F29A114D77F1900D30B8D /* IexMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F295714D77F1900D30B8D /* IexMacros.h */; };
+		CA3F29A214D77F1900D30B8D /* IexMathExc.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F295814D77F1900D30B8D /* IexMathExc.h */; };
+		CA3F29A314D77F1900D30B8D /* IexThrowErrnoExc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F295914D77F1900D30B8D /* IexThrowErrnoExc.cpp */; };
+		CA3F29A414D77F1900D30B8D /* IexThrowErrnoExc.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F295A14D77F1900D30B8D /* IexThrowErrnoExc.h */; };
+		CA3F29A514D77F1900D30B8D /* IlmThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F295E14D77F1900D30B8D /* IlmThread.cpp */; };
+		CA3F29A614D77F1900D30B8D /* IlmThread.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F295F14D77F1900D30B8D /* IlmThread.h */; };
+		CA3F29A714D77F1900D30B8D /* IlmThreadMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F296014D77F1900D30B8D /* IlmThreadMutex.cpp */; };
+		CA3F29A814D77F1900D30B8D /* IlmThreadMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F296114D77F1900D30B8D /* IlmThreadMutex.h */; };
+		CA3F29A914D77F1900D30B8D /* IlmThreadMutexPosix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F296214D77F1900D30B8D /* IlmThreadMutexPosix.cpp */; };
+		CA3F29AB14D77F1900D30B8D /* IlmThreadPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F296414D77F1900D30B8D /* IlmThreadPool.cpp */; };
+		CA3F29AC14D77F1900D30B8D /* IlmThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F296514D77F1900D30B8D /* IlmThreadPool.h */; };
+		CA3F29AD14D77F1900D30B8D /* IlmThreadPosix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F296614D77F1900D30B8D /* IlmThreadPosix.cpp */; };
+		CA3F29AE14D77F1900D30B8D /* IlmThreadSemaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F296714D77F1900D30B8D /* IlmThreadSemaphore.cpp */; };
+		CA3F29AF14D77F1900D30B8D /* IlmThreadSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F296814D77F1900D30B8D /* IlmThreadSemaphore.h */; };
+		CA3F29B014D77F1900D30B8D /* IlmThreadSemaphorePosix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F296914D77F1900D30B8D /* IlmThreadSemaphorePosix.cpp */; };
+		CA3F29B114D77F1900D30B8D /* IlmThreadSemaphorePosixCompat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F296A14D77F1900D30B8D /* IlmThreadSemaphorePosixCompat.cpp */; };
+		CA3F29B414D77F1900D30B8D /* ImathBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F297014D77F1900D30B8D /* ImathBox.cpp */; };
+		CA3F29B514D77F1900D30B8D /* ImathBox.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297114D77F1900D30B8D /* ImathBox.h */; };
+		CA3F29B614D77F1900D30B8D /* ImathBoxAlgo.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297214D77F1900D30B8D /* ImathBoxAlgo.h */; };
+		CA3F29B714D77F1900D30B8D /* ImathColor.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297314D77F1900D30B8D /* ImathColor.h */; };
+		CA3F29B814D77F1900D30B8D /* ImathColorAlgo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F297414D77F1900D30B8D /* ImathColorAlgo.cpp */; };
+		CA3F29B914D77F1900D30B8D /* ImathColorAlgo.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297514D77F1900D30B8D /* ImathColorAlgo.h */; };
+		CA3F29BA14D77F1900D30B8D /* ImathEuler.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297614D77F1900D30B8D /* ImathEuler.h */; };
+		CA3F29BB14D77F1900D30B8D /* ImathExc.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297714D77F1900D30B8D /* ImathExc.h */; };
+		CA3F29BC14D77F1900D30B8D /* ImathFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297814D77F1900D30B8D /* ImathFrame.h */; };
+		CA3F29BD14D77F1900D30B8D /* ImathFrustum.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297914D77F1900D30B8D /* ImathFrustum.h */; };
+		CA3F29BE14D77F1900D30B8D /* ImathFun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F297A14D77F1900D30B8D /* ImathFun.cpp */; };
+		CA3F29BF14D77F1900D30B8D /* ImathFun.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297B14D77F1900D30B8D /* ImathFun.h */; };
+		CA3F29C014D77F1900D30B8D /* ImathGL.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297C14D77F1900D30B8D /* ImathGL.h */; };
+		CA3F29C114D77F1900D30B8D /* ImathGLU.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297D14D77F1900D30B8D /* ImathGLU.h */; };
+		CA3F29C214D77F1900D30B8D /* ImathHalfLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297E14D77F1900D30B8D /* ImathHalfLimits.h */; };
+		CA3F29C314D77F1900D30B8D /* ImathInt64.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F297F14D77F1900D30B8D /* ImathInt64.h */; };
+		CA3F29C414D77F1900D30B8D /* ImathInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298014D77F1900D30B8D /* ImathInterval.h */; };
+		CA3F29C514D77F1900D30B8D /* ImathLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298114D77F1900D30B8D /* ImathLimits.h */; };
+		CA3F29C614D77F1900D30B8D /* ImathLine.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298214D77F1900D30B8D /* ImathLine.h */; };
+		CA3F29C714D77F1900D30B8D /* ImathLineAlgo.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298314D77F1900D30B8D /* ImathLineAlgo.h */; };
+		CA3F29C814D77F1900D30B8D /* ImathMath.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298414D77F1900D30B8D /* ImathMath.h */; };
+		CA3F29C914D77F1900D30B8D /* ImathMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298514D77F1900D30B8D /* ImathMatrix.h */; };
+		CA3F29CA14D77F1900D30B8D /* ImathMatrixAlgo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F298614D77F1900D30B8D /* ImathMatrixAlgo.cpp */; };
+		CA3F29CB14D77F1900D30B8D /* ImathMatrixAlgo.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298714D77F1900D30B8D /* ImathMatrixAlgo.h */; };
+		CA3F29CC14D77F1900D30B8D /* ImathPlane.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298814D77F1900D30B8D /* ImathPlane.h */; };
+		CA3F29CD14D77F1900D30B8D /* ImathPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298914D77F1900D30B8D /* ImathPlatform.h */; };
+		CA3F29CE14D77F1900D30B8D /* ImathQuat.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298A14D77F1900D30B8D /* ImathQuat.h */; };
+		CA3F29CF14D77F1900D30B8D /* ImathRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F298B14D77F1900D30B8D /* ImathRandom.cpp */; };
+		CA3F29D014D77F1900D30B8D /* ImathRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298C14D77F1900D30B8D /* ImathRandom.h */; };
+		CA3F29D114D77F1900D30B8D /* ImathRoots.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298D14D77F1900D30B8D /* ImathRoots.h */; };
+		CA3F29D214D77F1900D30B8D /* ImathShear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F298E14D77F1900D30B8D /* ImathShear.cpp */; };
+		CA3F29D314D77F1900D30B8D /* ImathShear.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F298F14D77F1900D30B8D /* ImathShear.h */; };
+		CA3F29D414D77F1900D30B8D /* ImathSphere.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F299014D77F1900D30B8D /* ImathSphere.h */; };
+		CA3F29D514D77F1900D30B8D /* ImathVec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA3F299114D77F1900D30B8D /* ImathVec.cpp */; };
+		CA3F29D614D77F1900D30B8D /* ImathVec.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F299214D77F1900D30B8D /* ImathVec.h */; };
+		CA3F29D714D77F1900D30B8D /* ImathVecAlgo.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F299314D77F1900D30B8D /* ImathVecAlgo.h */; };
+		CA3F29DA14D77F9500D30B8D /* eLut.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F29D814D77F9500D30B8D /* eLut.h */; };
+		CA3F29DB14D77F9500D30B8D /* toFloat.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F29D914D77F9500D30B8D /* toFloat.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0FB66716E04AAD002331E9 /* IlmBaseConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IlmBaseConfig.h; path = config.windows/IlmBaseConfig.h; sourceTree = "<group>"; };
+		CA3F294B14D77F1900D30B8D /* half.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = half.cpp; sourceTree = "<group>"; };
+		CA3F294C14D77F1900D30B8D /* half.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = half.h; sourceTree = "<group>"; };
+		CA3F294D14D77F1900D30B8D /* halfFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = halfFunction.h; sourceTree = "<group>"; };
+		CA3F294E14D77F1900D30B8D /* halfLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = halfLimits.h; sourceTree = "<group>"; };
+		CA3F295314D77F1900D30B8D /* Iex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iex.h; sourceTree = "<group>"; };
+		CA3F295414D77F1900D30B8D /* IexBaseExc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IexBaseExc.cpp; sourceTree = "<group>"; };
+		CA3F295514D77F1900D30B8D /* IexBaseExc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IexBaseExc.h; sourceTree = "<group>"; };
+		CA3F295614D77F1900D30B8D /* IexErrnoExc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IexErrnoExc.h; sourceTree = "<group>"; };
+		CA3F295714D77F1900D30B8D /* IexMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IexMacros.h; sourceTree = "<group>"; };
+		CA3F295814D77F1900D30B8D /* IexMathExc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IexMathExc.h; sourceTree = "<group>"; };
+		CA3F295914D77F1900D30B8D /* IexThrowErrnoExc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IexThrowErrnoExc.cpp; sourceTree = "<group>"; };
+		CA3F295A14D77F1900D30B8D /* IexThrowErrnoExc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IexThrowErrnoExc.h; sourceTree = "<group>"; };
+		CA3F295E14D77F1900D30B8D /* IlmThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IlmThread.cpp; sourceTree = "<group>"; };
+		CA3F295F14D77F1900D30B8D /* IlmThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IlmThread.h; sourceTree = "<group>"; };
+		CA3F296014D77F1900D30B8D /* IlmThreadMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IlmThreadMutex.cpp; sourceTree = "<group>"; };
+		CA3F296114D77F1900D30B8D /* IlmThreadMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IlmThreadMutex.h; sourceTree = "<group>"; };
+		CA3F296214D77F1900D30B8D /* IlmThreadMutexPosix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IlmThreadMutexPosix.cpp; sourceTree = "<group>"; };
+		CA3F296414D77F1900D30B8D /* IlmThreadPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IlmThreadPool.cpp; sourceTree = "<group>"; };
+		CA3F296514D77F1900D30B8D /* IlmThreadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IlmThreadPool.h; sourceTree = "<group>"; };
+		CA3F296614D77F1900D30B8D /* IlmThreadPosix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IlmThreadPosix.cpp; sourceTree = "<group>"; };
+		CA3F296714D77F1900D30B8D /* IlmThreadSemaphore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IlmThreadSemaphore.cpp; sourceTree = "<group>"; };
+		CA3F296814D77F1900D30B8D /* IlmThreadSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IlmThreadSemaphore.h; sourceTree = "<group>"; };
+		CA3F296914D77F1900D30B8D /* IlmThreadSemaphorePosix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IlmThreadSemaphorePosix.cpp; sourceTree = "<group>"; };
+		CA3F296A14D77F1900D30B8D /* IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IlmThreadSemaphorePosixCompat.cpp; sourceTree = "<group>"; };
+		CA3F297014D77F1900D30B8D /* ImathBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImathBox.cpp; sourceTree = "<group>"; };
+		CA3F297114D77F1900D30B8D /* ImathBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathBox.h; sourceTree = "<group>"; };
+		CA3F297214D77F1900D30B8D /* ImathBoxAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathBoxAlgo.h; sourceTree = "<group>"; };
+		CA3F297314D77F1900D30B8D /* ImathColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathColor.h; sourceTree = "<group>"; };
+		CA3F297414D77F1900D30B8D /* ImathColorAlgo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImathColorAlgo.cpp; sourceTree = "<group>"; };
+		CA3F297514D77F1900D30B8D /* ImathColorAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathColorAlgo.h; sourceTree = "<group>"; };
+		CA3F297614D77F1900D30B8D /* ImathEuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathEuler.h; sourceTree = "<group>"; };
+		CA3F297714D77F1900D30B8D /* ImathExc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathExc.h; sourceTree = "<group>"; };
+		CA3F297814D77F1900D30B8D /* ImathFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathFrame.h; sourceTree = "<group>"; };
+		CA3F297914D77F1900D30B8D /* ImathFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathFrustum.h; sourceTree = "<group>"; };
+		CA3F297A14D77F1900D30B8D /* ImathFun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImathFun.cpp; sourceTree = "<group>"; };
+		CA3F297B14D77F1900D30B8D /* ImathFun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathFun.h; sourceTree = "<group>"; };
+		CA3F297C14D77F1900D30B8D /* ImathGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathGL.h; sourceTree = "<group>"; };
+		CA3F297D14D77F1900D30B8D /* ImathGLU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathGLU.h; sourceTree = "<group>"; };
+		CA3F297E14D77F1900D30B8D /* ImathHalfLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathHalfLimits.h; sourceTree = "<group>"; };
+		CA3F297F14D77F1900D30B8D /* ImathInt64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathInt64.h; sourceTree = "<group>"; };
+		CA3F298014D77F1900D30B8D /* ImathInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathInterval.h; sourceTree = "<group>"; };
+		CA3F298114D77F1900D30B8D /* ImathLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathLimits.h; sourceTree = "<group>"; };
+		CA3F298214D77F1900D30B8D /* ImathLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathLine.h; sourceTree = "<group>"; };
+		CA3F298314D77F1900D30B8D /* ImathLineAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathLineAlgo.h; sourceTree = "<group>"; };
+		CA3F298414D77F1900D30B8D /* ImathMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathMath.h; sourceTree = "<group>"; };
+		CA3F298514D77F1900D30B8D /* ImathMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathMatrix.h; sourceTree = "<group>"; };
+		CA3F298614D77F1900D30B8D /* ImathMatrixAlgo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImathMatrixAlgo.cpp; sourceTree = "<group>"; };
+		CA3F298714D77F1900D30B8D /* ImathMatrixAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathMatrixAlgo.h; sourceTree = "<group>"; };
+		CA3F298814D77F1900D30B8D /* ImathPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathPlane.h; sourceTree = "<group>"; };
+		CA3F298914D77F1900D30B8D /* ImathPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathPlatform.h; sourceTree = "<group>"; };
+		CA3F298A14D77F1900D30B8D /* ImathQuat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathQuat.h; sourceTree = "<group>"; };
+		CA3F298B14D77F1900D30B8D /* ImathRandom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImathRandom.cpp; sourceTree = "<group>"; };
+		CA3F298C14D77F1900D30B8D /* ImathRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathRandom.h; sourceTree = "<group>"; };
+		CA3F298D14D77F1900D30B8D /* ImathRoots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathRoots.h; sourceTree = "<group>"; };
+		CA3F298E14D77F1900D30B8D /* ImathShear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImathShear.cpp; sourceTree = "<group>"; };
+		CA3F298F14D77F1900D30B8D /* ImathShear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathShear.h; sourceTree = "<group>"; };
+		CA3F299014D77F1900D30B8D /* ImathSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathSphere.h; sourceTree = "<group>"; };
+		CA3F299114D77F1900D30B8D /* ImathVec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImathVec.cpp; sourceTree = "<group>"; };
+		CA3F299214D77F1900D30B8D /* ImathVec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathVec.h; sourceTree = "<group>"; };
+		CA3F299314D77F1900D30B8D /* ImathVecAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImathVecAlgo.h; sourceTree = "<group>"; };
+		CA3F29D814D77F9500D30B8D /* eLut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eLut.h; sourceTree = "<group>"; };
+		CA3F29D914D77F9500D30B8D /* toFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toFloat.h; sourceTree = "<group>"; };
+		CABCBA4414CF933700A735F5 /* libIlmBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIlmBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABCBA4114CF933700A735F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3F294914D77F1900D30B8D /* Half */ = {
+			isa = PBXGroup;
+			children = (
+				CA3F29D814D77F9500D30B8D /* eLut.h */,
+				CA3F29D914D77F9500D30B8D /* toFloat.h */,
+				CA3F294B14D77F1900D30B8D /* half.cpp */,
+				CA3F294C14D77F1900D30B8D /* half.h */,
+				CA3F294D14D77F1900D30B8D /* halfFunction.h */,
+				CA3F294E14D77F1900D30B8D /* halfLimits.h */,
+			);
+			name = Half;
+			path = "Half";
+			sourceTree = "<group>";
+		};
+		CA3F295214D77F1900D30B8D /* Iex */ = {
+			isa = PBXGroup;
+			children = (
+				CA3F295314D77F1900D30B8D /* Iex.h */,
+				CA3F295414D77F1900D30B8D /* IexBaseExc.cpp */,
+				CA3F295514D77F1900D30B8D /* IexBaseExc.h */,
+				CA3F295614D77F1900D30B8D /* IexErrnoExc.h */,
+				CA3F295714D77F1900D30B8D /* IexMacros.h */,
+				CA3F295814D77F1900D30B8D /* IexMathExc.h */,
+				CA3F295914D77F1900D30B8D /* IexThrowErrnoExc.cpp */,
+				CA3F295A14D77F1900D30B8D /* IexThrowErrnoExc.h */,
+			);
+			name = Iex;
+			path = "Iex";
+			sourceTree = "<group>";
+		};
+		CA3F295D14D77F1900D30B8D /* IlmThread */ = {
+			isa = PBXGroup;
+			children = (
+				CA3F295E14D77F1900D30B8D /* IlmThread.cpp */,
+				CA3F295F14D77F1900D30B8D /* IlmThread.h */,
+				CA3F296014D77F1900D30B8D /* IlmThreadMutex.cpp */,
+				CA3F296114D77F1900D30B8D /* IlmThreadMutex.h */,
+				CA3F296214D77F1900D30B8D /* IlmThreadMutexPosix.cpp */,
+				CA3F296414D77F1900D30B8D /* IlmThreadPool.cpp */,
+				CA3F296514D77F1900D30B8D /* IlmThreadPool.h */,
+				CA3F296614D77F1900D30B8D /* IlmThreadPosix.cpp */,
+				CA3F296714D77F1900D30B8D /* IlmThreadSemaphore.cpp */,
+				CA3F296814D77F1900D30B8D /* IlmThreadSemaphore.h */,
+				CA3F296914D77F1900D30B8D /* IlmThreadSemaphorePosix.cpp */,
+				CA3F296A14D77F1900D30B8D /* IlmThreadSemaphorePosixCompat.cpp */,
+			);
+			name = IlmThread;
+			path = "IlmThread";
+			sourceTree = "<group>";
+		};
+		CA3F296F14D77F1900D30B8D /* Imath */ = {
+			isa = PBXGroup;
+			children = (
+				CA3F297014D77F1900D30B8D /* ImathBox.cpp */,
+				CA3F297114D77F1900D30B8D /* ImathBox.h */,
+				CA3F297214D77F1900D30B8D /* ImathBoxAlgo.h */,
+				CA3F297314D77F1900D30B8D /* ImathColor.h */,
+				CA3F297414D77F1900D30B8D /* ImathColorAlgo.cpp */,
+				CA3F297514D77F1900D30B8D /* ImathColorAlgo.h */,
+				CA3F297614D77F1900D30B8D /* ImathEuler.h */,
+				CA3F297714D77F1900D30B8D /* ImathExc.h */,
+				CA3F297814D77F1900D30B8D /* ImathFrame.h */,
+				CA3F297914D77F1900D30B8D /* ImathFrustum.h */,
+				CA3F297A14D77F1900D30B8D /* ImathFun.cpp */,
+				CA3F297B14D77F1900D30B8D /* ImathFun.h */,
+				CA3F297C14D77F1900D30B8D /* ImathGL.h */,
+				CA3F297D14D77F1900D30B8D /* ImathGLU.h */,
+				CA3F297E14D77F1900D30B8D /* ImathHalfLimits.h */,
+				CA3F297F14D77F1900D30B8D /* ImathInt64.h */,
+				CA3F298014D77F1900D30B8D /* ImathInterval.h */,
+				CA3F298114D77F1900D30B8D /* ImathLimits.h */,
+				CA3F298214D77F1900D30B8D /* ImathLine.h */,
+				CA3F298314D77F1900D30B8D /* ImathLineAlgo.h */,
+				CA3F298414D77F1900D30B8D /* ImathMath.h */,
+				CA3F298514D77F1900D30B8D /* ImathMatrix.h */,
+				CA3F298614D77F1900D30B8D /* ImathMatrixAlgo.cpp */,
+				CA3F298714D77F1900D30B8D /* ImathMatrixAlgo.h */,
+				CA3F298814D77F1900D30B8D /* ImathPlane.h */,
+				CA3F298914D77F1900D30B8D /* ImathPlatform.h */,
+				CA3F298A14D77F1900D30B8D /* ImathQuat.h */,
+				CA3F298B14D77F1900D30B8D /* ImathRandom.cpp */,
+				CA3F298C14D77F1900D30B8D /* ImathRandom.h */,
+				CA3F298D14D77F1900D30B8D /* ImathRoots.h */,
+				CA3F298E14D77F1900D30B8D /* ImathShear.cpp */,
+				CA3F298F14D77F1900D30B8D /* ImathShear.h */,
+				CA3F299014D77F1900D30B8D /* ImathSphere.h */,
+				CA3F299114D77F1900D30B8D /* ImathVec.cpp */,
+				CA3F299214D77F1900D30B8D /* ImathVec.h */,
+				CA3F299314D77F1900D30B8D /* ImathVecAlgo.h */,
+			);
+			name = Imath;
+			path = "Imath";
+			sourceTree = "<group>";
+		};
+		CABCBA3914CF933700A735F5 = {
+			isa = PBXGroup;
+			children = (
+				CA0FB66716E04AAD002331E9 /* IlmBaseConfig.h */,
+				CA3F294914D77F1900D30B8D /* Half */,
+				CA3F295214D77F1900D30B8D /* Iex */,
+				CA3F295D14D77F1900D30B8D /* IlmThread */,
+				CA3F296F14D77F1900D30B8D /* Imath */,
+				CABCBA4514CF933700A735F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABCBA4514CF933700A735F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABCBA4414CF933700A735F5 /* libIlmBase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CABCBA4214CF933700A735F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3F299914D77F1900D30B8D /* half.h in Headers */,
+				CA3F299A14D77F1900D30B8D /* halfFunction.h in Headers */,
+				CA3F299B14D77F1900D30B8D /* halfLimits.h in Headers */,
+				CA3F299D14D77F1900D30B8D /* Iex.h in Headers */,
+				CA3F299F14D77F1900D30B8D /* IexBaseExc.h in Headers */,
+				CA3F29A014D77F1900D30B8D /* IexErrnoExc.h in Headers */,
+				CA3F29A114D77F1900D30B8D /* IexMacros.h in Headers */,
+				CA3F29A214D77F1900D30B8D /* IexMathExc.h in Headers */,
+				CA3F29A414D77F1900D30B8D /* IexThrowErrnoExc.h in Headers */,
+				CA3F29A614D77F1900D30B8D /* IlmThread.h in Headers */,
+				CA3F29A814D77F1900D30B8D /* IlmThreadMutex.h in Headers */,
+				CA3F29AC14D77F1900D30B8D /* IlmThreadPool.h in Headers */,
+				CA3F29AF14D77F1900D30B8D /* IlmThreadSemaphore.h in Headers */,
+				CA3F29B514D77F1900D30B8D /* ImathBox.h in Headers */,
+				CA3F29B614D77F1900D30B8D /* ImathBoxAlgo.h in Headers */,
+				CA3F29B714D77F1900D30B8D /* ImathColor.h in Headers */,
+				CA3F29B914D77F1900D30B8D /* ImathColorAlgo.h in Headers */,
+				CA3F29BA14D77F1900D30B8D /* ImathEuler.h in Headers */,
+				CA3F29BB14D77F1900D30B8D /* ImathExc.h in Headers */,
+				CA3F29BC14D77F1900D30B8D /* ImathFrame.h in Headers */,
+				CA3F29BD14D77F1900D30B8D /* ImathFrustum.h in Headers */,
+				CA3F29BF14D77F1900D30B8D /* ImathFun.h in Headers */,
+				CA3F29C014D77F1900D30B8D /* ImathGL.h in Headers */,
+				CA3F29C114D77F1900D30B8D /* ImathGLU.h in Headers */,
+				CA3F29C214D77F1900D30B8D /* ImathHalfLimits.h in Headers */,
+				CA3F29C314D77F1900D30B8D /* ImathInt64.h in Headers */,
+				CA3F29C414D77F1900D30B8D /* ImathInterval.h in Headers */,
+				CA3F29C514D77F1900D30B8D /* ImathLimits.h in Headers */,
+				CA3F29C614D77F1900D30B8D /* ImathLine.h in Headers */,
+				CA3F29C714D77F1900D30B8D /* ImathLineAlgo.h in Headers */,
+				CA3F29C814D77F1900D30B8D /* ImathMath.h in Headers */,
+				CA3F29C914D77F1900D30B8D /* ImathMatrix.h in Headers */,
+				CA3F29CB14D77F1900D30B8D /* ImathMatrixAlgo.h in Headers */,
+				CA3F29CC14D77F1900D30B8D /* ImathPlane.h in Headers */,
+				CA3F29CD14D77F1900D30B8D /* ImathPlatform.h in Headers */,
+				CA3F29CE14D77F1900D30B8D /* ImathQuat.h in Headers */,
+				CA3F29D014D77F1900D30B8D /* ImathRandom.h in Headers */,
+				CA3F29D114D77F1900D30B8D /* ImathRoots.h in Headers */,
+				CA3F29D314D77F1900D30B8D /* ImathShear.h in Headers */,
+				CA3F29D414D77F1900D30B8D /* ImathSphere.h in Headers */,
+				CA3F29D614D77F1900D30B8D /* ImathVec.h in Headers */,
+				CA3F29D714D77F1900D30B8D /* ImathVecAlgo.h in Headers */,
+				CA3F29DA14D77F9500D30B8D /* eLut.h in Headers */,
+				CA3F29DB14D77F9500D30B8D /* toFloat.h in Headers */,
+				CA0FB66816E04AAD002331E9 /* IlmBaseConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CABCBA4314CF933700A735F5 /* IlmBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABCBA5114CF933700A735F5 /* Build configuration list for PBXNativeTarget "IlmBase" */;
+			buildPhases = (
+				CABCBA4014CF933700A735F5 /* Sources */,
+				CABCBA4114CF933700A735F5 /* Frameworks */,
+				CABCBA4214CF933700A735F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IlmBase;
+			productName = IlmBase;
+			productReference = CABCBA4414CF933700A735F5 /* libIlmBase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABCBA3B14CF933700A735F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "The 11ers";
+			};
+			buildConfigurationList = CABCBA3E14CF933700A735F5 /* Build configuration list for PBXProject "IlmBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CABCBA3914CF933700A735F5;
+			productRefGroup = CABCBA4514CF933700A735F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABCBA4314CF933700A735F5 /* IlmBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABCBA4014CF933700A735F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3F299814D77F1900D30B8D /* half.cpp in Sources */,
+				CA3F299E14D77F1900D30B8D /* IexBaseExc.cpp in Sources */,
+				CA3F29A314D77F1900D30B8D /* IexThrowErrnoExc.cpp in Sources */,
+				CA3F29A514D77F1900D30B8D /* IlmThread.cpp in Sources */,
+				CA3F29A714D77F1900D30B8D /* IlmThreadMutex.cpp in Sources */,
+				CA3F29A914D77F1900D30B8D /* IlmThreadMutexPosix.cpp in Sources */,
+				CA3F29AB14D77F1900D30B8D /* IlmThreadPool.cpp in Sources */,
+				CA3F29AD14D77F1900D30B8D /* IlmThreadPosix.cpp in Sources */,
+				CA3F29AE14D77F1900D30B8D /* IlmThreadSemaphore.cpp in Sources */,
+				CA3F29B014D77F1900D30B8D /* IlmThreadSemaphorePosix.cpp in Sources */,
+				CA3F29B114D77F1900D30B8D /* IlmThreadSemaphorePosixCompat.cpp in Sources */,
+				CA3F29B414D77F1900D30B8D /* ImathBox.cpp in Sources */,
+				CA3F29B814D77F1900D30B8D /* ImathColorAlgo.cpp in Sources */,
+				CA3F29BE14D77F1900D30B8D /* ImathFun.cpp in Sources */,
+				CA3F29CA14D77F1900D30B8D /* ImathMatrixAlgo.cpp in Sources */,
+				CA3F29CF14D77F1900D30B8D /* ImathRandom.cpp in Sources */,
+				CA3F29D214D77F1900D30B8D /* ImathShear.cpp in Sources */,
+				CA3F29D514D77F1900D30B8D /* ImathVec.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CABCBA4F14CF933700A735F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = "";
+			};
+			name = Debug;
+		};
+		CABCBA5014CF933700A735F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABCBA5214CF933700A735F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DSTROOT = /tmp/IlmBase.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CABCBA5314CF933700A735F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DSTROOT = /tmp/IlmBase.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				"OTHER_CFLAGS[arch=*]" = "-DNDEBUG";
+				OTHER_LDFLAGS = "-ObjC";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABCBA3E14CF933700A735F5 /* Build configuration list for PBXProject "IlmBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABCBA4F14CF933700A735F5 /* Debug */,
+				CABCBA5014CF933700A735F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABCBA5114CF933700A735F5 /* Build configuration list for PBXNativeTarget "IlmBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABCBA5214CF933700A735F5 /* Debug */,
+				CABCBA5314CF933700A735F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABCBA3B14CF933700A735F5 /* Project object */;
+}
